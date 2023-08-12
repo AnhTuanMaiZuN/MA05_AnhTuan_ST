@@ -6,12 +6,7 @@ else:
     print(n, "là số lẻ")
 '''
 '''
-print("1.Điểm này thuộc loại giỏi")
-print("2.Điểm này thuộc loại khá")
-print("3.Điểm này thuộc loại trung bình")
-print("4.Điểm này thuộc loại yếu")
-
-diem = int(input("Điểm trung bình là: "))
+diem = float(input("Điểm trung bình là: "))
 if (diem == 9):
     print("Điểm này thuộc loại giỏi")
 elif (diem >= 7):
@@ -23,7 +18,7 @@ elif (diem <= 5):
 '''
 '''
 nam = int(input("Năm này là năm: "))
-if (nam % 4 == 0):
+if (nam % 4 == 0 and nam % 100 != 0) or (nam % 400 == 0):
     print(nam, "là năm nhuận")
 else:
     print(nam, "là năm không nhuận")

@@ -20,7 +20,7 @@ else:
         for j in range (1,10):
             print(f"{i} * {j} = {i} = {i*j}")
 '''
-'''
+
 n = int(input("Nhập số nguyên n:"))
 a = 1
 sum = 0
@@ -30,6 +30,7 @@ for i in range(a,n,2):
     sum += i
     # sum = sum + 1
 print(f"Tổng các số chẵn của 1 đến {n} là:", sum)
+
 '''
 n = int(input("Nhập số nguyên n:"))
 for i in range(n):
@@ -38,3 +39,4 @@ for i in range(n):
     for j in range(i+1):
         print("*", end="")
     print()
+'''
